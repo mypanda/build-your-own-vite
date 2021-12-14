@@ -1,0 +1,19 @@
+{
+  "name": "build-your-own-vite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pm2 start kvite.js --watch && npm run log",
+    "log": "pm2 logs kvite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "koa": "^2.13.4",
+    "pm2": "^5.1.2",
+    "vue": "^3.2.26"
+  }
+}
